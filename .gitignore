@@ -12,7 +12,13 @@
 *.out
 
 # Dependency directories (remove the comment below to include it)
-# vendor/
+vendor/
+
+# Temporary files
+tmp/
 
 # Go workspace file
 go.work
+
+# Environment variables file
+.env
